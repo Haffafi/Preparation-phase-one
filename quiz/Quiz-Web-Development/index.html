@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>List Kegiatan</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header" id="myDIV">
+      <h2>List Kegiatanmu!</h2>
+      <input
+        id="cari"
+        type="text"
+        placeholder="Mencari Kegiatan..."
+        class="mencari"
+        style="margin-bottom: 15px"
+      />
+      <span onclick="mencari()" class="mencariBtn">Mencari</span>
+      <input
+        id="myInput"
+        type="text"
+        placeholder="Tambahkan Kegiatan..."
+        class="tambah"
+      />
+      <span onclick="newElement()" class="tambahBtn">Tambahkan</span>
+    </header>
+    <ul id="myUL"></ul>
+  </body>
+  <script src="script.js"></script>
+</html>

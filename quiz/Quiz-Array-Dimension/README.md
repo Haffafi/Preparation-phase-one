@@ -1,5 +1,5 @@
-
 ### Soal 1
+
 ```js
 /*
 =====================
@@ -21,19 +21,21 @@ output: [ 'tamkin', 'masuk', 'benci', 'cinta', 'ubar' ]
 */
 
 function doubleReverse(arr) {
-    //code here 
+  //code here
 }
 
-console.log(doubleReverse(['rabu', 'cinta', 'benci', 'masuk', 'nikmat']));
+console.log(doubleReverse(["rabu", "cinta", "benci", "masuk", "nikmat"]));
 // [ 'tamkin', 'masuk', 'benci', 'cinta', 'ubar' ]
-console.log(doubleReverse(['aku', 'sayang', 'kamu']));
+console.log(doubleReverse(["aku", "sayang", "kamu"]));
 // [ 'umak', 'gnayas', 'aku' ]
-console.log(doubleReverse(['pelakor', 'perusak', 'rumah', 'tangga']));
+console.log(doubleReverse(["pelakor", "perusak", "rumah", "tangga"]));
 //[ 'anggnat', 'rumah', 'perusak', 'pelakor' ]
-console.log(doubleReverse([]))
+console.log(doubleReverse([]));
 // invalid input parameter
 ```
+
 ### Soal 2
+
 ```js
 /*
 ==================================
@@ -64,7 +66,9 @@ console.log(findNotRelative([3, 6, 10, 12, 15], [1, 3, 5, 10, 16])); // [ 6, 12,
 console.log(findNotRelative([10, 20, 36, 59], [5, 10, 15, 59])); //[20, 36]
 console.log(findNotRelative([1, 2, 3], [2, 1, 3])); //[]
 ```
+
 ### Soal 3
+
 ```js
 /*
 Minimum Distance Between Greatest Element
@@ -110,6 +114,7 @@ console.log(minDistanceBetweenGreatest([7, 8, 5, 2, 1, 1])); //0
 ```
 
 ### Soal 4
+
 ```js
 /*
 ==================================
@@ -140,7 +145,9 @@ function averageLengthWord(words) {
   //code here
 }
 
-console.log(averageLengthWord('Do you want to become a great coder ?')); // ['you']
-console.log(averageLengthWord('You dont know what you have until you lose it!')); // [ 'dont','know','what','have','lose']
-console.log(averageLengthWord('I am diligent')); // []
+console.log(averageLengthWord("Do you want to become a great coder ?")); // ['you']
+console.log(
+  averageLengthWord("You dont know what you have until you lose it!")
+); // [ 'dont','know','what','have','lose']
+console.log(averageLengthWord("I am diligent")); // []
 ```

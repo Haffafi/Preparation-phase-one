@@ -1,4 +1,5 @@
 ### Soal 1
+
 ```js
 /*
 
@@ -20,12 +21,14 @@ function angkaTerbesar(sentence) {
 }
 
 // TEST CASES
-console.log(angkaTerbesar([2, 3, 7, 6, 5])) // 7
-console.log(angkaTerbesar([9, 3, 7, 4, 1])) // 9
-console.log(angkaTerbesar([2, 1, 7, 2, 8])) // 8
-console.log(angkaTerbesar([])) // -1
+console.log(angkaTerbesar([2, 3, 7, 6, 5])); // 7
+console.log(angkaTerbesar([9, 3, 7, 4, 1])); // 9
+console.log(angkaTerbesar([2, 1, 7, 2, 8])); // 8
+console.log(angkaTerbesar([])); // -1
 ```
+
 ### Soal 2
+
 ```js
 /**
  * ////////////////
@@ -54,7 +57,9 @@ function changeXRecursive(data, jenis) {
 console.log(changeXRecursive("012345678922468", "ganjil")); //x1x3x5x7x9xxxxx
 console.log(changeXRecursive("0123456789", "genap")); //0x2x4x6x8x
 ```
+
 ### Soal 3
+
 ```js
 /**
   Vowels Counter Recursive
@@ -77,11 +82,13 @@ function consonantCounterRecursive(sentences) {
   //code here
 }
 
-console.log(consonantCounterRecursive('alDi Suka MakAn baksO')) //10
-console.log(consonantCounterRecursive('AziZy')) // 3
-console.log(consonantCounterRecursive('awt6an')) // 3
+console.log(consonantCounterRecursive("alDi Suka MakAn baksO")); //10
+console.log(consonantCounterRecursive("AziZy")); // 3
+console.log(consonantCounterRecursive("awt6an")); // 3
 ```
+
 ### Soal 4
+
 ```js
 /*
 ================
@@ -106,12 +113,14 @@ function dividableRecursive(array, num) {
 }
 
 // DRIVER CODE
-console.log(dividableRecursive([66, 33, 55, 44, 11], 3)) // 66 33
-console.log(dividableRecursive([123, 222, 100, 50, 32], 2)) // 222 100 50 32
-console.log(dividableRecursive([125, 500, 201, 202, 66], 5)) // 125 500
-console.log(dividableRecursive([66, 33, 55, 44, 132], 6)) // 66 132
+console.log(dividableRecursive([66, 33, 55, 44, 11], 3)); // 66 33
+console.log(dividableRecursive([123, 222, 100, 50, 32], 2)); // 222 100 50 32
+console.log(dividableRecursive([125, 500, 201, 202, 66], 5)); // 125 500
+console.log(dividableRecursive([66, 33, 55, 44, 132], 6)); // 66 132
 ```
+
 ### Soal 5
+
 ```js
 /**
   Hapus Simbol Rekursif
@@ -133,13 +142,15 @@ function hapusSimbolRec(str) {
   //code here
 }
 
-console.log(hapusSimbolRec('test4@aa')); //test4aa
-console.log(hapusSimbolRec('devel0p3r s3j@@ati')); // devel0p3rs3jati
-console.log(hapusSimbolRec('ma@#k!an~')); // makan
-console.log(hapusSimbolRec('coding')); // coding
-console.log(hapusSimbolRec('1+3-5*2=100')); // 1352100
+console.log(hapusSimbolRec("test4@aa")); //test4aa
+console.log(hapusSimbolRec("devel0p3r s3j@@ati")); // devel0p3rs3jati
+console.log(hapusSimbolRec("ma@#k!an~")); // makan
+console.log(hapusSimbolRec("coding")); // coding
+console.log(hapusSimbolRec("1+3-5*2=100")); // 1352100
 ```
+
 ### Soal 6
+
 ```js
 /*
 
@@ -157,20 +168,21 @@ RULES
 
 */
 
-
 function palindromeRecursive(sentence) {
-    //code here - saran bikin fungsi rekursif didalam sini
-    //lalu bandingkan dengan sentence
+  //code here - saran bikin fungsi rekursif didalam sini
+  //lalu bandingkan dengan sentence
 }
 
 // TEST CASES
-console.log(palindromeRecursive('katak')); // true
-console.log(palindromeRecursive('blanket')); // false
-console.log(palindromeRecursive('civic')); // true
-console.log(palindromeRecursive('kasur rusak')); // true
-console.log(palindromeRecursive('mister')); // false
+console.log(palindromeRecursive("katak")); // true
+console.log(palindromeRecursive("blanket")); // false
+console.log(palindromeRecursive("civic")); // true
+console.log(palindromeRecursive("kasur rusak")); // true
+console.log(palindromeRecursive("mister")); // false
 ```
+
 ### Soal 7
+
 ```js
 /*
   PARSE NUMBER
@@ -188,13 +200,15 @@ console.log(palindromeRecursive('mister')); // false
 
 function parseNumber(equation) {
   //code here
-};
+}
 
-console.log(parseNumber(3333)) // 3000+300+30+3  // 3000 + 300 + 30 + 3
-console.log(parseNumber(90)) // 90
-console.log(parseNumber(2333)) // 2000+300+30+3
+console.log(parseNumber(3333)); // 3000+300+30+3  // 3000 + 300 + 30 + 3
+console.log(parseNumber(90)); // 90
+console.log(parseNumber(2333)); // 2000+300+30+3
 ```
+
 ### Soal 8
+
 ```js
 /* 
 Budi ingin menyusun batu bata dengan ukuran yang sama sampai membentuk piramid 2 dimensi
@@ -228,17 +242,19 @@ function piramid(n) {
 }
 
 // console.log(piramid()) // 0
-console.log(piramid(0)) // 0
-console.log(piramid(1)) // 1
-console.log(piramid(2)) // 3
-console.log(piramid(3)) // 6
-console.log(piramid(4)) // 10
-console.log(piramid(5)) // 15
-console.log(piramid(6)) // 21
-console.log(piramid(100)) // 5050
-console.log(piramid(888)) // 394716
+console.log(piramid(0)); // 0
+console.log(piramid(1)); // 1
+console.log(piramid(2)); // 3
+console.log(piramid(3)); // 6
+console.log(piramid(4)); // 10
+console.log(piramid(5)); // 15
+console.log(piramid(6)); // 21
+console.log(piramid(100)); // 5050
+console.log(piramid(888)); // 394716
 ```
+
 ### Soal 9
+
 ```js
 /**
 Virus Check Recursive
@@ -275,15 +291,17 @@ function virusCheckRecursive(str, viruses) {
   //code here
 }
 
-console.log(virusCheckRecursive('qlD4MZax0raQqew', 'x|0|q')); // 5
-console.log(virusCheckRecursive('HH0NBP1zRa', 'h|r')); // 3
-console.log(virusCheckRecursive('4O4TmIF6ONaiMlzpXxPqwy', '4|X|p')); // 6
-console.log(virusCheckRecursive('mjBgPlzks', 'm')); // 1
-console.log(virusCheckRecursive('AIn4Ks05bBaa', 'x')); // 0
-console.log(virusCheckRecursive('RsMFjBUjvIaP')); // There is no virus
-console.log(virusCheckRecursive('')); // There is no virus
+console.log(virusCheckRecursive("qlD4MZax0raQqew", "x|0|q")); // 5
+console.log(virusCheckRecursive("HH0NBP1zRa", "h|r")); // 3
+console.log(virusCheckRecursive("4O4TmIF6ONaiMlzpXxPqwy", "4|X|p")); // 6
+console.log(virusCheckRecursive("mjBgPlzks", "m")); // 1
+console.log(virusCheckRecursive("AIn4Ks05bBaa", "x")); // 0
+console.log(virusCheckRecursive("RsMFjBUjvIaP")); // There is no virus
+console.log(virusCheckRecursive("")); // There is no virus
 ```
+
 ### Soal 10
+
 ```js
 /*
 ===================================
@@ -312,4 +330,4 @@ console.log(numberIterator(1)); // '01'
 console.log(numberIterator(0)); // '0'
 ```
 
-***WKWKWKWK BANYAK YAK, TENANG AJA INI TERAKHIR KOK***
+**_WKWKWKWK BANYAK YAK, TENANG AJA INI TERAKHIR KOK_**
